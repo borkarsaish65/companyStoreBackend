@@ -27,6 +27,6 @@ app.all('*', (req, res) => {
    })
 });
 
-app.listen(port=8081, () =>
+app.listen(port = process.env.PORT || 8081, () =>
     console.log(`🚀 Server running on port ${port}!`)
 );
