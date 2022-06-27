@@ -17,6 +17,8 @@ app.get('/list-company', companyController.listCompanyData)
 
 app.post('/store-company', companyController.storeCompanyData)
 
+app.post('/search-company', companyController.searchCompanyName)
+
 
 
 app.all('*', (req, res) => {
