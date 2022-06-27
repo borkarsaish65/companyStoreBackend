@@ -6,6 +6,7 @@ const config = {
       user:'xnylvrmybzcrxk',
       password:'668cdd1a1b65ddc5706acd8e9d057c1ecfabb89d51fb1f1e8d404defa04ed626',
       database:'dbivtia6uumucj',
+      ssl: true
     }
   };
   
